@@ -1,0 +1,57 @@
+form {
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+    border-top: none;
+    display: flex;
+    align-items: center;
+}
+
+h2:first-of-type {
+    align-self: center;
+}
+
+.img {
+    width: 100%; height: 50vh;
+    background-image: url('../Assets/Pizza.jpg');
+}
+
+p {
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    align-content: center;
+    margin: 5px;
+    width: 10vw;
+}
+
+.toppings {
+    display: flex;
+    flex-flow: row;
+    padding: 1%;
+}
+
+select{
+    margin: 5px;
+    width:10vw;
+}
+
+.special {
+    width: 80%; height: 20vh;
+    margin: 0 auto;
+} 
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2%;
+}

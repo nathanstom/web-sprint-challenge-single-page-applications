@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.pizzaDiv {
+    color: white;
+    background-image: url('../Assets/Pizza.jpg');
+    background-size: contain;
+    background-repeat: round;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizzaBtn {
+    color: white;
+    padding: 15px 25px;
+    margin-top: 30px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.pizzaBtn:hover {
+    box-shadow: 0px 0px 5px white;
+    transform: scale(1.1);
+} 
