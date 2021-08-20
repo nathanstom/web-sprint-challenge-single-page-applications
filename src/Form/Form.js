@@ -119,7 +119,7 @@ export default function Form() {
                 Pizza Size <br/> *Required*
             </p>
                 <select value={formData.size} onChange={inputChange} name='size' id='size-dropdown'>
-                    <option>--Pizza Size--</option>
+                    <option>--pick a size--</option>
                     <option>Small</option>
                     <option>Medium</option>
                     <option>Large</option>
@@ -156,7 +156,7 @@ export default function Form() {
                     </p>
                         <input value={formData.special} className='special' onChange={inputChange} type='text' name='special' id='special-text' />
 
-                    <button id='order-button' disabled={buttonDisabled} >Place Order</button>
+                    <button id='order-button' disabled={buttonDisabled} >submit</button>
         </form>
     )
 } 
